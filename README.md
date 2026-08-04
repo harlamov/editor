@@ -50,8 +50,20 @@ npm create @harlamov/game
 
 ### Automatic layouts
 
-- **Landscape**, **portrait**, and **square** are logical layout modes, independent of the physical device orientation.
-- Every prefab layer can have unique properties in each logical layout mode.
+- **Landscape**, **portrait**, and **square** are logical layout modes, independent of the physical device orientation
+- Every prefab layer can have unique properties in each logical layout mode
+
+### Automatic updates
+
+- Download the editor once — new versions are installed automatically
+
+## Loading prefab is now this simple:
+
+```ts
+const mainMenu = await new MainMenu().prepare();
+
+// yeah, that's it :)
+```
 
 ## Keyboard shortcuts
 
@@ -76,3 +88,9 @@ Legend17 Editor is production-ready and already used in shipped projects. Develo
 - [Open an issue](https://github.com/harlamov/editor/issues)
 - [alexey@harlamov.games](mailto:alexey@harlamov.games)
 - [Telegram — @harlamov_games](https://t.me/harlamov_games)
+
+### P.S.
+
+I've been working on web games for more than 15 years, and in that time i've been through pretty much everything: Flash (now Animate, now appx abandoned), exports from Flash to JSON, texture-packers, Haxe, OpenFL, Cocos, Tiled, several attempts to build different editors.. It was always hard and tricky to work with UI.
+
+This is the tool that i genuinely enjoy using, fr. I hope some of you will find it useful and enjoy it too.
