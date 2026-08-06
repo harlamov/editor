@@ -21,7 +21,7 @@
 Learn the editor basics and walk through the complete prefab-to-runtime pipeline:
 
 ```shell
-npm create @harlamov/editor-tutorial
+npm create @harlamov/editor-tutorial@latest
 ```
 
 ## Start a game
@@ -29,7 +29,7 @@ npm create @harlamov/editor-tutorial
 Create a new project from a carefully assembled PixiJS 8 template with the editor workflow already in place:
 
 ```shell
-npm create @harlamov/game
+npm create @harlamov/game@latest
 ```
 
 ## Features
